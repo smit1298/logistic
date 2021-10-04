@@ -1,0 +1,13 @@
+#recruit{
+    background-image: url("../images/background.jpg");
+    height: auto; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top{
+    border: 1px solid black;
+    border-radius: 10px;
+}

@@ -16,8 +16,8 @@ const recruitForm = () => {
         <Col className=" mb-2 ms-auto text-center">
           <img src={Left} alt="" />
         </Col>
-        <Col className="me-auto ">
-          <Form className="me-auto" >
+        <Col className="me-auto">
+          <Form>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridName">
                 <Form.Label>First Name</Form.Label>
@@ -34,7 +34,7 @@ const recruitForm = () => {
             </Form.Group>
 
             <Form.Group>
-              <p>Do you have a rider permit ?</p>
+                <p>Do you have a rider perm</p>
               <div class="form-check form-check-inline">
                 <input
                   class="form-check-input"
@@ -60,7 +60,7 @@ const recruitForm = () => {
                 </label>
               </div>
             </Form.Group>
-            <br />
+
             <Button variant="primary" type="submit">
               Submit
             </Button>

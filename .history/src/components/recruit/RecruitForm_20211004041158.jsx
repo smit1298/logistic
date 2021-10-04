@@ -5,6 +5,7 @@ import Left from "../images/background.jpg";
 import "./RecruitForm.css";
 
 const recruitForm = () => {
+
   return (
     <div className="container-fluid" id="recruit">
       <div className="mt-2 justify-content-md-center" id="top">
@@ -17,7 +18,7 @@ const recruitForm = () => {
           <img src={Left} alt="" />
         </Col>
         <Col className="me-auto ">
-          <Form className="me-auto" >
+          <Form cla>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridName">
                 <Form.Label>First Name</Form.Label>
@@ -34,7 +35,7 @@ const recruitForm = () => {
             </Form.Group>
 
             <Form.Group>
-              <p>Do you have a rider permit ?</p>
+                <p>Do you have a rider permit ?</p>
               <div class="form-check form-check-inline">
                 <input
                   class="form-check-input"
@@ -60,7 +61,7 @@ const recruitForm = () => {
                 </label>
               </div>
             </Form.Group>
-            <br />
+<br />
             <Button variant="primary" type="submit">
               Submit
             </Button>

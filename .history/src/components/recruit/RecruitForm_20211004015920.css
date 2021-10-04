@@ -1,0 +1,9 @@
+#recruit{
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+
+}
+#top{
+    border: 1px solid black;
+    border-radius: 10px;
+}

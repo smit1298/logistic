@@ -16,8 +16,8 @@ const recruitForm = () => {
         <Col className=" mb-2 ms-auto text-center">
           <img src={Left} alt="" />
         </Col>
-        <Col className="me-auto ">
-          <Form className="me-auto" >
+        <Col className="me-auto">
+          <Form>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridName">
                 <Form.Label>First Name</Form.Label>
@@ -33,34 +33,9 @@ const recruitForm = () => {
               <Form.Control placeholder="12 Smit St, ikeja, Lagos Mainland" />
             </Form.Group>
 
-            <Form.Group>
-              <p>Do you have a rider permit ?</p>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio1"
-                  value="option1"
-                />
-                <label class="form-check-label" for="inlineRadio1">
-                  Yes
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="inlineRadioOptions"
-                  id="inlineRadio2"
-                  value="option2"
-                />
-                <label class="form-check-label" for="inlineRadio2">
-                  No
-                </label>
-              </div>
-            </Form.Group>
-            <br />
+            <Form.Group </Form.Group>
+            
+
             <Button variant="primary" type="submit">
               Submit
             </Button>

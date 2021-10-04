@@ -2,10 +2,11 @@ body,
 html {
   height: 100% !important;
 }
+#recruit {
+ 
+}
 
-#top {
-    border-bottom: 2px solid black;
-  /* background-image: url("../images/lorry.jpg"); */
+#top { background-image: url("../images/rider.jpg");
   height: 100% !important;
   background-position: center;
   background-repeat: no-repeat;

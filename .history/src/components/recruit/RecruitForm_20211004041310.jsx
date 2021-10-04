@@ -17,7 +17,7 @@ const recruitForm = () => {
           <img src={Left} alt="" />
         </Col>
         <Col className="me-auto ">
-          <Form className="me-auto" >
+          <Form className="me-auto" met>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridName">
                 <Form.Label>First Name</Form.Label>
